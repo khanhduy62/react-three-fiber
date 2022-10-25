@@ -4,6 +4,10 @@
  
 }
 
+h1 {
+  text-align: center;
+}
+
 .wrapper {
   min-height: 100vh;
   display: flex;
@@ -12,25 +16,24 @@
 }
 
 .card {
-  border-radius: 13px;
-  padding: 2rem;
-  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  padding: 20px;
   background-color:  lightblue;
-
+  gap: 4px;
 }
 
-.product-canvas {
+.product {
   width: 50vw;
   height: 50vh;
   background:white;
   border-radius: 0px;
-  margin-bottom:20px
-
 }
 
 .colors {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
